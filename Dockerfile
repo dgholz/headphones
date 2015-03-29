@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update --quiet=2
 RUN apt-get install --quiet=2 python git
+RUN apt-get install --quiet=2 shntool libav-tools
 
 RUN mkdir -p /headphones/config
 
